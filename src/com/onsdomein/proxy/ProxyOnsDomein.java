@@ -106,7 +106,7 @@ public class ProxyOnsDomein {
      * Method used by HC to listen for incoming requests and used by proxy to return the response from HC
      * @return string, String with: 1) a request for a HC 2) the response from HC
      */
-    private String receiveRequest() {
+    public String receiveRequest() {
         return inServer.nextLine();
     }
 }
